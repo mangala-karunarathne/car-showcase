@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.16",
     "@types/node": "20.4.9",
     "@types/react": "18.2.19",
     "@types/react-dom": "18.2.7",
@@ -22,7 +23,6 @@
   },
   "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
   "main": "next.config.js",
-  "devDependencies": {},
   "author": "Mangala Karunarathne",
   "license": "ISC"
 }

@@ -1,5 +1,6 @@
 import { MouseEventHandler } from "react";
 import { manufacturers } from "../constants/index";
+import CustomFilter from '../components/CustomFilter';
 
 export interface CustomButtonProps {
   title: string;
@@ -49,4 +50,14 @@ export interface FilterProps {
   fuel: string,
   limit: number,
   model: string,
+}
+
+export interface OptionProps {
+  title: string;
+  value: string;
+}
+
+export interface CustomFilterProps {
+  title: string;
+  options: OptionProps[];
 }
